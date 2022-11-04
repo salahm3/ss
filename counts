@@ -1,0 +1,12 @@
+const string = "social";
+function getCounts(string) {
+const histogram ={};
+
+for (let i in string) {
+    const ch= string[i];
+        histogram[ch]= (histogram[ch] || 0) +1
+    }
+    
+return histogram;
+}
+console.log(getCounts("social"));
