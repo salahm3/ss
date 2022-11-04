@@ -1,0 +1,8 @@
+function sum_three(nums)
+{
+  return nums[0] + nums[1] + nums[2];
+}
+console.log (sum_three([0,3,4]));
+console.log (sum_three([0,3,5]));
+console.log (sum_three([0,4,5]));
+console.log (sum_three([3,4,5]));
